@@ -1,0 +1,25 @@
+# 🔹 Pythonの仮想環境
+venv/
+__pycache__/
+*.pyc
+
+# 🔹 Notion APIキー・環境変数
+.env
+notion_api_key.txt
+
+# 🔹 Firestore & Cloud Storage関連
+firebase-adminsdk.json
+*.serviceAccountKey.json
+
+# 🔹 キャッシュ & 一時ファイル
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# 🔹 出力ファイル（データバックアップなど）
+output/
+backup/
+
+# 🔹 Jupyter Notebookのチェックポイント（使う場合）
+.ipynb_checkpoints/
