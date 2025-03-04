@@ -10,13 +10,14 @@
 
 ## 2️⃣ エンドポイント一覧
 
-| メソッド | エンドポイント | 説明 | 認証 |
-|----------|--------------|------|------|
-| `GET`  | `/api/articles` | 記事一覧を取得 | なし |
-| `GET`  | `/api/articles/{id}` | 記事詳細を取得 | なし |
-| `POST` | `/api/articles` | 記事を作成（管理者のみ） | 必要 |
-| `DELETE` | `/api/articles/{id}` | 記事を削除（管理者のみ） | 必要 |
-
+フィールド	型	説明
+title	title	記事タイトル
+description	rich_text	記事の説明
+date	date	記事の日付
+category	multi_select	カテゴリー（複数選択可能）
+tag	multi_select	タグ（複数選択可能）
+published	checkbox	公開フラグ（true / false）
+thumbnail	files	記事のサムネイル画像
 ---
 
 ## 3️⃣ API詳細設計

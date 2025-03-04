@@ -1,8 +1,13 @@
 import requests
 import json
+import os
+from dotenv import load_dotenv
+
+# .env を読み込む
+load_dotenv()
 # Notion API 設定
-NOTION_API_KEY = "secret_o3d9jwkOFkjKbKhmtuXlU33WFb4iQDJdffqU4au8dyY"  # Notion APIキー
-DATABASE_ID = "3b765b970c9e4365acb475dbb9fa7d9c"  # Notion データベースID
+NOTION_API_KEY = os.getenv("NOTION_API_KEY")
+DATABASE_ID = os.getenv("NOTION_DATABASE_ID")
 
 # 🔹 Notion API から記事データを取得
 def fetch_notion_data():
