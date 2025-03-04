@@ -17,8 +17,8 @@ Nuxt.js + Firebase で作るブログ。Notion API から記事を取得し、Fi
 - APIを通じた記事の自動取得
 
 ## 📂 ドキュメント一覧
-- [フローチャート設計](docs/flowchart.png)
-- [サイトマップ](docs/sitemap.md)
-- [API設計](docs/api.md)
-- [ER図（データベース設計）](docs/er-diagram.png)
-- [ファイル構成](docs/file_structure.md)
+- [フローチャート設計](flowchart.png)
+- [サイトマップ](sitemap.md)
+- [API設計](api.md)
+- [ER図（データベース設計）](er-diagram.png)
+- [ファイル構成](file_structure.md)
